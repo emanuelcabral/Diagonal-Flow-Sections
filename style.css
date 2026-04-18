@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* base */
+.section {
+  position: relative;
+  padding: 140px 20px;
+  text-align: center;
+}
+
+/* contenido */
+.content {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* colores */
+.blue {
+  background: #4f8cff;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.white {
+  background: #f5f5f5;
+  color: #333;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+}
+
+.dark {
+  background: #1e1e2f;
+  color: white;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+}
